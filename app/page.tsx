@@ -74,7 +74,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-6xl font-bold tracking-tight bg-gradient-to-r from-neutral-100 to-neutral-400 bg-clip-text text-transparent"
           >
-            EQ Coach
+            Eloquence
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}

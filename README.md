@@ -1,4 +1,4 @@
-# EQ Conversation Coach
+# Eloquence
 
 A mobile-first web app that coaches you to speak better using AI.
 
