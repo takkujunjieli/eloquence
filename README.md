@@ -1,20 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EQ Conversation Coach
+
+A mobile-first web app that coaches you to speak better using AI.
 
 ## Getting Started
 
-First, run the development server:
+1.  **Get a Gemini API Key**: [Google AI Studio](https://aistudio.google.com/app/apikey)
+2.  **Configure Environment**:
+    Create a file named `.env.local` in this directory (`eq/app/.env.local`) and add your key:
+    ```bash
+    GEMINI_API_KEY=your_key_here
+    ```
+3.  **Run the Server**:
+    ```bash
+    npm run dev
+    ```
+4.  **Open**: Visit [http://localhost:3000](http://localhost:3000)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
+- **Scenario Selection**: Negotiation, Interview, Difficult Convo.
+- **Coach Personas**: "The Orator" (Obama), "The Storyteller" (Lincoln), etc.
+- **Real-time**: Web Speech API integration.
+- **Feedback**: Post-conversation scoring and suggestions.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
